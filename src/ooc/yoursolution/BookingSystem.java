@@ -15,4 +15,3 @@ public class BookingSystem implements BookingSystemInterface {
     }
 
 }
-
