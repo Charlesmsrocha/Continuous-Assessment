@@ -6,11 +6,16 @@ import ooc.enums.Month;
 
 public class Car implements CarInterface {
 
-    private Make m;
-
+    private Make model;
+    private Month calendar;
+    private Car carId;
+    private BookingSystem avaibility;
+    private Map map;
+    
     @Override
     public Map<Month, boolean[]> createAvailability() {
-        throw new UnsupportedOperationException("Not supported yet.");
+        System.out.println("We do not know how to proceed");
+        return null;
     }
 
     @Override

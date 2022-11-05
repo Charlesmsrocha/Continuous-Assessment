@@ -4,7 +4,7 @@ import java.util.List;
 import ooc.enums.Make;
 import ooc.enums.Month;
 
-public class RentACar implements RentACarInterface {
+public class RentACar extends Car implements RentACarInterface {
 
     @Override
     public List<CarInterface> getCars() {
